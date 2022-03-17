@@ -1,0 +1,211 @@
+.main-color {
+    background-color: #6d8ddf !important;
+}
+
+.background-color {
+    background-color: #6d8ddfbd !important;
+}
+
+.carousel-item {
+    height: 660px;
+}
+
+.carousel-item img {
+    margin-top: 50px;
+}
+
+.carousel-item .display-1 {
+    margin-top: -400px;
+    font-weight: 500;
+    background-color: #6d8ddf70;
+}
+
+.carousel-item hr {
+    border-color: #6d8ddf;
+    width: 70px;
+    border-width: 3px;
+}
+
+.carousel-item p {
+    font-weight: bolder;
+    font-size: 27px;
+    background-color: #ffffff71;
+}
+
+.carousel-item .btn {
+    border: none;
+    border-radius: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 40px;
+}
+
+.hovered-card:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    width: 100%;
+    padding: 50px;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.footer .footer-text {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.footer .footer-text::before {
+    content: "selalu menemani anda";
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-size: 9px;
+}
+
+.footer .footer-menu {
+    margin: 20px 50px;
+}
+
+.footer .footer-menu li {
+    margin-left: -30px;
+    list-style: none;
+}
+
+.footer .footer-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .footer-menu li a:hover {
+    font-weight: 700;
+}
+
+.footer .footer-sosmed {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.footer .footer-sosmed a {
+    color: #fff;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.footer .footer-sosmed a:hover {
+    transform: scale(1.5);
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+/*ini css tentang kami*/
+.banner {
+    height: 80vh;
+    background: url("Image banner/1.jpeg");
+    background-size: cover;
+    background-position: top;
+}
+
+.banner-text {
+    height: 100%;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text p {
+    background-color: #6d8ddf63;
+}
+
+.section {
+    width: 100%;
+    min-height: 55vh;
+    background-color: #fff;
+}
+
+.content-section {
+    float: left;
+    width: 55%;
+}
+
+.image-section {
+    float: right;
+    width: 40%;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.content-section .content h2 {
+    margin-top: auto;
+    color: #f05f40;
+    font-size: 21px;
+}
+
+.content-section .content p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*css produk*/
+.line {
+    width: 50%;
+}
+
+/*css daftar*/
+.box {
+    box-shadow: #5cd053 !important;
+}
+
+/*css layanan*/
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #f05f40;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 40px;
+}
+
+.manfaat h4 {
+    line-height: 3;
+}
+
+.tambahan {
+    height: 50vh;
+    background-color: rgba(240, 95, 64, 0.4);
+    background-size: cover;
+    background-position: top;
+}
+
+.tambahan-text {
+    height: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
